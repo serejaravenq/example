@@ -1,0 +1,256 @@
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+	.main-nav-bar .navbar-default .navbar-nav .dropdown .dropdown-toggle{
+
+	border: 2px solid  #ca870e;
+
+}
+
+	.navbar-nav .dropdown{
+	float:left;
+}
+
+.about-h2-wrapper{
+
+		float: none;
+    	margin: 0 auto 2%;
+    	height:76px;
+	}
+
+.about span{
+	display: inline-block;
+    margin: 20px 0 2% 31%;
+    text-align: left;
+}
+
+.about .comments-about{
+
+	display:none;
+}
+
+.about h2{
+
+	width:100%;
+	float:none;
+}
+
+.services-wrapper h2{
+	padding-top: 30px;
+}
+
+
+.about .description-wrapper-about .invisible-block{
+
+
+    display:inline-block;
+    margin:20px 0;
+    text-align:left;
+
+}
+
+.about .commentaries{
+
+	display:none;
+}
+.description-wrapper-about{
+	max-width: 100%;
+    display: block;
+    margin: 6% auto 0;
+    
+}
+
+.about-picture{
+
+	margin: 0;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.navbar .container-fluid .navbar-header .main-title{
+	margin: 4% 0 0 0;
+	width: 55%;
+	}
+
+	.about .section-details{
+		display:none;
+	}
+
+	.navbar-nav .dropdown{
+
+		display:none;
+	}
+
+	.navbar-header .dropdown{
+
+		display:block;
+	}
+
+	.underline{
+		display:none;
+	}
+
+	.section{
+		background-size: 100%;
+	}
+	.section .section-details{
+		display:none;
+	}
+	.section h1{
+		margin:0 4%;
+		font-size: 45px;
+		padding-left: 20px;
+	}
+
+	.description{
+		max-width: 175px;
+		margin-left: 4%;
+		font-size: 25px;
+		padding-left: 20px;
+		width:100%;
+		color:#434242;
+	}
+
+	.about-h2-wrapper{
+
+		float: none;
+    	margin: 0 3% 5%;
+	}
+
+.about span{
+
+	display: block;
+    margin: 20px 0 2% 3%;
+    text-align: left;
+    float:none;
+    width: 100%;
+    max-width: 234px;
+}
+	
+	.services-wrapper{
+
+		width:100%;
+		margin: 5% 0;
+	}
+
+
+.footer-list{
+	padding:0;
+	margin-left: 3%;
+}
+.invisible-section{
+    display:none;
+}
+
+.footer-list{
+
+		display:none;
+	}
+
+.about .section-details{
+		display:inline-block;
+		margin: 5% 0;
+		font-size:13px;
+		font-family:"Proximanova-bold";
+	}
+
+	.about .section-details .underline{
+		
+		margin: -1px 0 0 0;
+		max-width: 100%
+	}
+	.contacts-wrapper img{
+		float:none;
+		margin-left: -14px;
+		width: 108%;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.section {
+
+		background-position: right 105px;
+	}
+
+	.section h1{
+		display:none;
+	}
+	.navbar-header .dropdown .caret{
+		display:none;
+	}
+	.description span{
+		color:#f3f3f3;
+	}
+
+	
+	.footer-title{
+
+		display:block;
+		text-align: center;
+	}
+
+	footer .underline {
+		display:none;
+	}
+	
+	.invisible-block{
+		display:none;
+	}
+
+	.services-wrapper .description-services{
+		display:none;
+	}
+
+	.contacts-wrapper  form input{
+		max-width: 410px;
+		margin: 0 5px 10px 0;
+	}
+
+	
+	.social-icons{
+
+		width:100%;
+		margin: 0;
+		display:block;
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width : 427px) {
+	
+   .navbar .container-fluid .navbar-header .main-title{
+
+		font-size: 20px;
+	}
+
+}
+
+
+@media only screen and (max-width : 375px) {
+
+	
+	.navbar-header .dropdown{
+
+		 padding: 10px 20px;
+		 
+	}
+
+	.contacts-wrapper h2{
+		font-size: 35px;
+	}
+}
